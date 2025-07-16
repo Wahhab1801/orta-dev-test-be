@@ -2,17 +2,17 @@
 
 This is the backend system for the **Shift Manager** application, built with **Node.js**, **Express**, and **MongoDB**. It supports:
 
-* ✅ User registration and login with JWT authentication
-* 🔐 Protected routes for shift management
-* 🔁 Password reset via email with secure token flow
-* 📄 Auto-generated API docs using Swagger (OpenAPI 3.0)
+- ✅ User registration and login with JWT authentication
+- 🔐 Protected routes for shift management
+- 🔁 Password reset via email with secure token flow
+- 📄 Auto-generated API docs using Swagger (OpenAPI 3.0)
 
 ---
 
 ## 📂 Folder Structure
 
 ```
-qa-test-backend/
+orta-dev-test-be/
 ├── controllers/           # Route handlers (User, Shift, Forgot Password)
 ├── middleware/            # JWT authentication middleware
 ├── models/                # Mongoose schemas (User, Shift)
@@ -32,8 +32,8 @@ qa-test-backend/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Wahhab1801/qa-test-backend.git
-cd qa-test-backend
+git clone https://github.com/Wahhab1801/orta-dev-test-be.git
+cd orta-dev-test-be
 ```
 
 ### 2. Install dependencies
@@ -52,6 +52,7 @@ PORT=8000
 JWT_SECRET=secret1234
 NODE_ENV=development
 ```
+
 ---
 
 ### 4. Run the server
@@ -68,7 +69,7 @@ npm run dev
 
 Swagger UI is available at:
 
-👉 **[https://qa-test-backend.onrender.com/api/docs](https://qa-test-backend.onrender.com/api/docs)**
+👉 **[https://orta-dev-test-be.onrender.com/api/docs](https://orta-dev-test-be.onrender.com/api/docs)**
 
 ---
 
@@ -79,6 +80,7 @@ Use the `/user/login` route to get a JWT. Then include it in your requests:
 ```
 Authorization: Bearer <token>
 ```
+
 ---
 
 ## 📄 License

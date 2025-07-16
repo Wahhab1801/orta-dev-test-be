@@ -14,7 +14,7 @@ const options = {
         description: "Local development server",
       },
       {
-        url: "https://qa-test-backend.onrender.com/api",
+        url: "https://orta-dev-test-be.onrender.com/api",
         description: "Production server",
       },
     ],
